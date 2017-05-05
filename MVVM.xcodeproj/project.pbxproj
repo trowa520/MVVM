@@ -20,6 +20,7 @@
 		146257421EB1F38300C8DF9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146257401EB1F38300C8DF9E /* LaunchScreen.storyboard */; };
 		1462574D1EB1F38300C8DF9E /* MVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1462574C1EB1F38300C8DF9E /* MVVMTests.m */; };
 		146257581EB1F38300C8DF9E /* MVVMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 146257571EB1F38300C8DF9E /* MVVMUITests.m */; };
+		64E882A31EBC8171003230B2 /* ModelHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E882A21EBC8171003230B2 /* ModelHandle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		146257531EB1F38300C8DF9E /* MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146257571EB1F38300C8DF9E /* MVVMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMUITests.m; sourceTree = "<group>"; };
 		146257591EB1F38300C8DF9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E882A11EBC8171003230B2 /* ModelHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelHandle.h; sourceTree = "<group>"; };
+		64E882A21EBC8171003230B2 /* ModelHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelHandle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +202,8 @@
 		1414B0EB1EB2D5F700B2AA18 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				64E882A11EBC8171003230B2 /* ModelHandle.h */,
+				64E882A21EBC8171003230B2 /* ModelHandle.m */,
 				1414B0EC1EB2D5F700B2AA18 /* CustomModel.h */,
 				1414B0ED1EB2D5F700B2AA18 /* CustomModel.m */,
 			);
@@ -443,6 +448,7 @@
 				1414B0F41EB2D64300B2AA18 /* FirstVC.m in Sources */,
 				146257371EB1F38300C8DF9E /* AppDelegate.m in Sources */,
 				1414B1071EB2DCD900B2AA18 /* ViewManager.m in Sources */,
+				64E882A31EBC8171003230B2 /* ModelHandle.m in Sources */,
 				146257341EB1F38300C8DF9E /* main.m in Sources */,
 				1414B1031EB2DCB400B2AA18 /* CustomView.m in Sources */,
 			);
@@ -594,7 +600,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4F76T4J6R6;
-				GCC_PREFIX_HEADER = /Users/u/Desktop/MVVM/MVVM/MVVM_PrefixHeader.pch;
+				GCC_PREFIX_HEADER = $SRCROOT/MVVM/MVVM_PrefixHeader.pch;
 				INFOPLIST_FILE = MVVM/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -608,7 +614,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4F76T4J6R6;
-				GCC_PREFIX_HEADER = /Users/u/Desktop/MVVM/MVVM/MVVM_PrefixHeader.pch;
+				GCC_PREFIX_HEADER = $SRCROOT/MVVM/MVVM_PrefixHeader.pch;
 				INFOPLIST_FILE = MVVM/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

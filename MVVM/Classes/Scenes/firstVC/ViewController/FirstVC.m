@@ -22,7 +22,7 @@
     //让View的点击事件交给viewManager
     [self.viewManager managerBtnBlockWithView:self.view];
     //ViewModel 获取数据
-    [self.viewModel fetchRequestCustomDataWithModelArray:^(NSMutableArray *array){
+    [self.viewModel fetchRequestCustomDataWithModelArray:^(NSMutableArray *array) {
         self.viewManager.setViewBlock(array);
     }];
 }

@@ -11,7 +11,7 @@
  *  处理业务逻辑
  */
 #import <Foundation/Foundation.h>
-typedef void (^setViews)(NSArray *array);
+
 
 typedef void(^modelArrayBlock) (NSMutableArray *array);
 
@@ -19,5 +19,5 @@ typedef void(^modelArrayBlock) (NSMutableArray *array);
 
 - (void)fetchRequestCustomDataWithModelArray:(modelArrayBlock)arrayBlock;
 
-@property (nonatomic,copy)setViews setVBlock;
+
 @end

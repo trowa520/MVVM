@@ -226,4 +226,4 @@ typedef void (^setViews)(NSArray *array);
 
 @end
 ```
-[demo传送门](https://github.com/LittleBitCode/MVVM.git)
+
